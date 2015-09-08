@@ -201,11 +201,11 @@
         android:gravity="bottom"
 
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
         android:id="@+id/llmenu"
         android:weightSum="1"
         android:background="#ff910c"
-        >
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
 
         <Button
             android:layout_width="60dp"
