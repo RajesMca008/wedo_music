@@ -13,7 +13,8 @@
         android:background="@drawable/laun_en"
 
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10dp" />
 
     <Button
         android:id="@+id/button2"
@@ -49,6 +50,7 @@
         android:id="@+id/linear_layout"
         android:layout_width="match_parent"
         android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
         android:layout_marginTop="10dp">
 
         <Button
@@ -69,7 +71,8 @@
             android:layout_marginLeft="10dp"
             android:inputType="textPersonName"
             android:background="@drawable/edtcornershape"
-            android:hint="Person Name">
+            android:hint="Person Name"
+            android:layout_marginRight="10dp">
 
 
         </EditText>
@@ -88,7 +91,7 @@
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:background="@drawable/password"
-            />
+            android:layout_marginLeft="20dp" />
 
         <EditText
             android:id="@+id/editText2"
@@ -101,7 +104,8 @@
             android:layout_weight="1"
             android:textColorHint="#ccc"
             android:inputType="textPassword"
-            android:hint="Password" />
+            android:hint="Password"
+            android:layout_marginRight="10dp" />
 
     </LinearLayout>
 
@@ -117,6 +121,7 @@
             android:layout_height="match_parent"
             android:layout_gravity="start"
             android:text="Register"
+            android:layout_marginLeft="70dp"
             android:textAlignment="center"
             android:textColor="#ffffff" />
 
@@ -128,7 +133,8 @@
 
             android:singleLine="true"
             android:text="Forgot Password?"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:layout_marginRight="10dp" />
 
     </LinearLayout>
 
@@ -152,7 +158,8 @@
             android:background="@drawable/btncornershape"
             android:textAlignment="center"
             android:textColor="#ffffff"
-            android:layout_weight="0.29" />
+            android:layout_weight="0.29"
+            android:layout_marginTop="5dp" />
 
     </LinearLayout>
 
