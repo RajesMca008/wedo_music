@@ -7,12 +7,12 @@
   >
 
 
-   <fragment
-        android:name="com.tgs.karaoke.LoginFragment"
+   <FrameLayout
+
         android:id="@+id/fragment_place"
    		android:layout_width="match_parent"
    		android:layout_height="match_parent"
-       tools:layout="@layout/fragment_login"/>
+        />
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
@@ -47,6 +47,16 @@ android:onClick="selectFrag"
             android:layout_weight="0.015"
             android:layout_marginLeft="50dp" />
         <Button
+            android:id="@+id/btn_profile"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/user"
+            android:onClick="selectFrag"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.015" />
+        <Button
             android:id="@+id/btn_music"
             android:layout_width="40dp"
             android:layout_height="40dp"
@@ -56,16 +66,7 @@ android:onClick="selectFrag"
             android:onClick="selectFrag"
             android:layout_weight="0.015"
             android:layout_marginLeft="50dp" />
-        <Button
-            android:id="@+id/btn_profile"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:background="@drawable/user"
-android:onClick="selectFrag"
-            android:layout_marginBottom="5dp"
-            android:layout_marginLeft="50dp"
-            android:layout_marginRight="10dp"
-            android:layout_weight="0.015" />
+
 
 
 

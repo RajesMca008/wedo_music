@@ -16,6 +16,6 @@ public class MusicFragment extends android.app.Fragment {
         //Inflate the layout for this fragment
 
         return inflater.inflate(
-                R.layout.fragment_login, container, false);
+                R.layout.fragment_music_main, container, false);
     }
 }

@@ -1,6 +1,5 @@
 package com.tgs.karaoke.bean;
 
-import android.graphics.Bitmap;
 
 /**
  * Created by Vishnu on 08-09-2015.
@@ -8,24 +7,18 @@ import android.graphics.Bitmap;
 public class ItemBean {
 
     String id;
-    Bitmap bitMap;
+    int resId;
     String str_item;
 
     public String getId() {
         return id;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public void setId(int resId) {
+        this.resId = resId;
     }
 
-    public Bitmap getBitMap() {
-        return bitMap;
-    }
 
-    public void setBitMap(Bitmap bitMap) {
-        this.bitMap = bitMap;
-    }
 
     public String getStr_item() {
         return str_item;

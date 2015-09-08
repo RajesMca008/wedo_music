@@ -26,6 +26,8 @@ android:background="#405252"
     <ListView
         android:id="@+id/lv_news"
         android:layout_width="match_parent"
+        android:dividerHeight="1dp"
+        android:divider="@android:color/black"
         android:layout_height="match_parent"></ListView>
 
 

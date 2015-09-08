@@ -1,31 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="55dp"
+    android:gravity="center_vertical"
     android:orientation="horizontal">
 
-    <Button
+    <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:background="@drawable/circleshape"
+        android:layout_height="match_parent"
+
+        android:gravity="center_vertical"
+
+        android:src="@drawable/ic_av_album"
         android:id="@+id/button" />
+
+
+    <TextView
+        android:id="@+id/main_title"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Site Amet"
+        android:gravity="center_vertical"
+        android:textColor="#f4231907"
+        android:layout_toRightOf="@+id/button"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp" />
+
     <TextView
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:text="jhhkjkjkjk"
-
-        android:layout_alignBaseline="@+id/btn_go"
-        android:layout_alignBottom="@+id/btn_go"
+        android:text="Something..."
         android:layout_toRightOf="@+id/button"
-        android:layout_toEndOf="@+id/button"
+
+
+         android:layout_below="@id/main_title"
         android:layout_marginLeft="10dp" />
-    <Button
+    <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_gravity="right"
         android:paddingTop="5dp"
-        android:background="@drawable/right"
+        android:src="@drawable/right"
         android:layout_alignTop="@+id/button"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
